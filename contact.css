@@ -1,0 +1,98 @@
+body{
+	background: darkgrey;
+}
+
+
+
+.uppermenu{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background: darkgrey;
+	float: left;
+	color: white;
+	top: 0;
+	overflow: hidden;
+	margin-bottom: 100px;
+	border: 1 px solid red;
+}
+/*.line{
+	border: 1px solid grey;
+}*/
+/*.upperblock{
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}*/
+.lowerblock{
+	width: 100%;
+	height: 30px;
+}
+.logo{
+	  width: 200px;
+	  height: 350px;
+	
+	  background-repeat: no-repeat;
+	  float: left;
+	  margin-right: 250px;
+	 }
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+	float: left;
+	font-family: 'Baskervville', serif;
+}
+.menulist{
+	float: left;
+}
+.menulist a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right:  100px;
+	color: white;
+
+}
+.menulist a:hover{
+	color: black;
+	transition-delay: 0.3s
+}
+
+
+
+
+h1{
+	text-align: center;
+ }
+.wrapper{
+	width: 400px;
+	padding: 30px;
+	background: white;
+	margin: 0 auto;
+ }
+.wrapper h2{
+	text-transform: uppercase;
+	color: black;
+}
+.wrapper p{
+	color: #222;
+	font-weight: bold;
+}
+.wrapper input[type=text],.wrapper input[type=email],textarea{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+.wrapper a{
+	text-decoration: none;
+	background: black;
+	color: #fff;
+	display: block;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 15px
+}

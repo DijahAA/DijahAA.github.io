@@ -1,0 +1,56 @@
+body{
+
+}
+
+.uppermenu{
+
+	width: 100%;
+	height: 100px;
+	position:fixed;
+	z-index: 1;
+	background: darkgrey;
+	float: left;
+	color: white;
+	top: 0;
+	overflow: hidden;
+	margin-bottom: 100px;
+	border: 1 px solid red;
+}
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+	float: left;
+	font-family: 'Baskervville', serif;
+}
+.menulist{
+	float: left;
+}
+.menulist a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	margin-right:  100px;
+	color: white;
+
+}
+.menulist a:hover{
+	color: black;
+	transition-delay: 0.3s;
+}
+
+.container{
+	margin-top: 150px;
+	font-family: 'Baskervville', serif;
+}
+.copyright{
+	background-color: white;
+	color: black;
+	font-family: 'Baskervville', serif;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 200px;
+	}
